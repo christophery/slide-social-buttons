@@ -44,29 +44,7 @@ Pick and choose which social buttons you wish to use, be sure to add the appropr
 </div>
 ```
 
-```html
-<div class="slide-social">
-    <div class="button">
-        <!-- Place +1 Button Here -->
-    </div>
-    <div class="google-plus icon">
-        <i class="icon-google-plus"></i>
-    </div>
-    <div class="google-plus slide"><p>+1</p></div>
-</div>
-```
-
-```html
-<div class="slide-social">
-    <div class="button">
-        <!-- Place Twitter Tweet Button Here -->
-    </div>
-    <div class="twitter icon">
-        <i class="icon-twitter"></i>
-    </div>
-    <div class="twitter slide"><p>tweet</p></div>
-</div>
-```
+You can find the markup for additional social buttons in the demo file (index.html).
 
 ##Browser Compatibility
 
