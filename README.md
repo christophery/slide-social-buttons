@@ -17,8 +17,8 @@ Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social
 
 ##Requirements
 
-- Modernizr
-- Font Awesome
+- [Modernizr](http://www.modernizr.com/)
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
 ##Usage
 
