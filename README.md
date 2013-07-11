@@ -20,6 +20,54 @@ Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social
 - Modernizr
 - Font Awesome
 
+##Usage
+
+Include Font Awesome, Modernizr and the Slide Social CSS in your header.
+
+```html
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/your/css/slide-social-buttons.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+```
+
+Pick and choose which social buttons you wish to use, be sure to add the appropriate [like](https://developers.facebook.com/docs/reference/plugins/like/)/[tweet](https://twitter.com/about/resources/buttons)/[+1](https://developers.google.com/+/web/+1button/?hl=en) markup and JS as required.
+
+```html
+<div class="slide-social">
+    <div class="button">
+    	<!-- Place FB Like Button Here -->
+    </div>
+    <div class="facebook icon">
+        <i class="icon-facebook"></i>
+    </div>
+    <div class="facebook slide"><p>like</p></div>
+</div>
+```
+
+```html
+<div class="slide-social">
+    <div class="button">
+        <!-- Place +1 Button Here -->
+    </div>
+    <div class="google-plus icon">
+        <i class="icon-google-plus"></i>
+    </div>
+    <div class="google-plus slide"><p>+1</p></div>
+</div>
+```
+
+```html
+<div class="slide-social">
+    <div class="button">
+        <!-- Place Twitter Tweet Button Here -->
+    </div>
+    <div class="twitter icon">
+        <i class="icon-twitter"></i>
+    </div>
+    <div class="twitter slide"><p>tweet</p></div>
+</div>
+```
+
 ##Browser Compatibility
 
 Desktop
