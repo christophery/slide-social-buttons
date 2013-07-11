@@ -1,0 +1,116 @@
+/*! Slide Social Buttons - v1.0 - 2013-7-10
+* Slide Social Buttons are a fun way to display your social media buttons
+* https://github.com/christophery/slide-social-buttons
+* by Christopher Yee */
+
+.slide-social{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    width: 150px;
+    height: 48px;
+    background: #F1F1F1;
+}
+
+.slide-social .button{
+    position: absolute;
+    margin: 15px 0 0 55px;
+}
+
+.slide-social a{
+    display: none; /* hide flash of unstyled tweet button */
+}
+
+.icon{
+    float: left;
+    padding-top: 15px;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.icon i{
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+.slide{
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.slide p{
+    position: relative;
+    top: 15px;
+    margin: 0;
+    border-left: 1px solid rgb(255,255,255); /* IE < 9 Fallback Colour */
+    border-left: 1px solid rgba(255,255,255,0.3);
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Brand Colours */
+
+.facebook{
+    background: #3b5998;
+}
+
+.twitter{
+    background: #00acee;
+}
+
+.google-plus{
+    background: #db4a39;
+}
+
+.linkedin{
+    background: #0e76a8;
+}
+
+.pinterest{
+    background: #c8232c;
+}
+
+/* Slide Animation */
+
+.slide-social:hover .slide{
+    -webkit-transform: translate(101%, 0);
+    -moz-transform: translate(101%, 0);
+    -ms-transform: translate(101%, 0);
+    -o-transform: translate(101%, 0);
+    transform: translate(101%, 0);
+}
+
+.no-cssanimations .slide{
+    display: none; /* hide in IE 8-9 */
+}
+
+.touch .slide{
+    display: none; /* hide on touch devices */
+}
+
+/* Transition */
+
+.slide{
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+/* Example Media Queries */
+
+@media only screen and (max-width : 30em) { /* 480px/16px = 30em */
+
+    .slide-social{
+        width: 100%;
+    }
+
+    .slide-social .button{
+        position: absolute;
+        margin-left: 50%;
+    }
+}

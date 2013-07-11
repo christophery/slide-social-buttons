@@ -1,0 +1,61 @@
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility; /* fix antialiasing issue in Safari */
+    -webkit-font-smoothing: antialiased; 
+}
+
+/* Links */
+
+a{
+    color: #00b4ff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+}
+
+/* Headings */
+
+h1{
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+h2{
+    font-weight: 400;
+}
+
+/* Container */
+
+.container{
+    position: relative;
+    margin: 0 5%;
+    width: 90%;
+}
+
+/* Social Buttons */
+
+.social-buttons{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #DCDCDC;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 15px;
+    padding: 15px 0;
+    border-top: 1px solid #DCDCDC;
+    text-align: center;
+    font-size: 0.9em;
+}
