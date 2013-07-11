@@ -6,7 +6,7 @@ These buttons are inspired by the [Supersteil blog](http://supersteil.com/blog) 
 
 Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social Buttons on one of your websites.
 
-[View Demo](http://www.christopheryee.ca/)
+[View Demo](http://christopheryee.ca/slide-social-buttons/)
 
 ##Features
 
