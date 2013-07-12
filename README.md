@@ -11,7 +11,7 @@ Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social
 ##Features
 
 - Uses CSS transforms & transitions.
-- Retina ready (using Font Awesome).
+- Uses Icon Fonts, perfect for retina displays.
 - Degrades gracefully for IE 8 - 9 & touch devices.
 - It's responsive!
 
