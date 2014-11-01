@@ -76,5 +76,3 @@ Mobile
 - [Supersteil](http://supersteil.com/)
 - [HTML5 Boilerplate](http://html5boilerplate.com/)
 - [Modernizr](http://modernizr.com/)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/christophery/slide-social-buttons/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
