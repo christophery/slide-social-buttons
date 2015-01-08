@@ -56,6 +56,7 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 	! Blue Husky Studios refined it to work better as a plugin to an existing site.
 		- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
+		+ Created branding (icon and logo), added in ./branding/
 		! Updated Font Awesome requirement to 4.x
 		! Removed requirement for Modernizr.js
 		+ Added .tumblr-bg
