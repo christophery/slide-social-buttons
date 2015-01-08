@@ -109,7 +109,7 @@
     display: none; /* hide in IE 8-9 */
 }
 
-.ss-touch .ss-slide{
+.touch .ss-slide{
     display: none; /* hide on touch devices */
 }
 
