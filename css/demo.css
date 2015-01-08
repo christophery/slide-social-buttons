@@ -33,12 +33,20 @@ h2{
     font-weight: 400;
 }
 
-/* Container */
+/* Logo */
 
-.container{
-    position: relative;
-    margin: 0 5%;
-    width: 90%;
+#logo {
+  display: block;
+  text-align: center;
+}
+	#logo img {
+	  height: 192px;
+	}
+
+/* Main element */
+
+main {
+    margin: auto;
 }
 
 /* Social Buttons */

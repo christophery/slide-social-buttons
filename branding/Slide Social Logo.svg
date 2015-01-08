@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="8"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Slide Social Logo.svg"
+   inkscape:export-filename="C:\Users\Kyli\Dropbox\Libraries\Images\From Me\Design\Slide Social\Slide Social Logo (32p).png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3773">
+      <stop
+         style="stop-color:#607d8b;stop-opacity:0;"
+         offset="0"
+         id="stop3775" />
+      <stop
+         id="stop3781"
+         offset="0.1388889"
+         style="stop-color:#607d8b;stop-opacity:1;" />
+      <stop
+         style="stop-color:#607d8b;stop-opacity:1;"
+         offset="1"
+         id="stop3777" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3773"
+       id="linearGradient3779"
+       x1="10.000098"
+       y1="1044.3622"
+       x2="14.99996"
+       y2="1044.3622"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,3.9999986)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="25.995865"
+     inkscape:cx="10.209117"
+     inkscape:cy="3.842116"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="660"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     gridtolerance="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       color="#ff0000"
+       opacity="0.1254902" />
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid2989"
+       units="mm"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       gridanglex="45"
+       gridanglez="45"
+       spacingy="1.1289mm"
+       color="#0000ff"
+       opacity="0.0627451"
+       empcolor="#00ff00"
+       empopacity="0.50196078" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-8)">
+    <rect
+       style="fill:#f1f1f1;fill-opacity:1;stroke:none"
+       id="rect3769"
+       width="14.000196"
+       height="6"
+       x="1"
+       y="9" />
+    <text
+       xml:space="preserve"
+       style="font-size:2px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:80.00000119%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#880e4f;fill-opacity:1;stroke:none;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"
+       x="6.0000591"
+       y="12.000013"
+       id="text3785"
+       sodipodi:linespacing="80.000001%"><tspan
+         sodipodi:role="line"
+         id="tspan3787"
+         x="6.0000591"
+         y="12.000013"
+         style="font-size:2px;line-height:80.00000119%;fill:#880e4f;fill-opacity:1">Slide</tspan><tspan
+         sodipodi:role="line"
+         x="6.0000591"
+         y="13.600014"
+         id="tspan3789"
+         style="font-size:2px;line-height:80.00000119%;fill:#880e4f;fill-opacity:1">  Social</tspan></text>
+    <rect
+       style="fill:#607d8b;fill-opacity:1;stroke:none"
+       id="rect2999"
+       width="4.0001793"
+       height="6"
+       x="0.9999606"
+       y="9" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.29803922;stroke-dasharray:none"
+       d="m 5,10.999959 1.181e-4,2.000039"
+       id="path3769"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:url(#linearGradient3779);fill-opacity:1;stroke:none"
+       d="m 10,9.2499986 c 1,-0.25 2,-0.25 5,-0.25 l 0,5.9999994 c -3,0 -4,0 -5,-0.25 z"
+       id="rect3771"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:44.99999881%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"
+       x="3"
+       y="12.000013"
+       id="text2995"
+       sodipodi:linespacing="44.999999%"><tspan
+         sodipodi:role="line"
+         id="tspan2997"
+         x="3"
+         y="12.000013"
+         style="font-size:1.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:44.99999881%;fill:#ffffff;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel">S</tspan><tspan
+         sodipodi:role="line"
+         x="3"
+         y="12.675014"
+         id="tspan2999"
+         style="font-size:1.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:44.99999881%;fill:#ffffff;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"> S</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Slide Social Icon.svg"
+   inkscape:export-filename="C:\Users\Kyli\Dropbox\Libraries\Images\From Me\Design\Slide Social\Slide Social Icon (4k).png"
+   inkscape:export-xdpi="23040"
+   inkscape:export-ydpi="23040">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3773">
+      <stop
+         style="stop-color:#607d8b;stop-opacity:0;"
+         offset="0"
+         id="stop3775" />
+      <stop
+         id="stop3781"
+         offset="0.1388889"
+         style="stop-color:#607d8b;stop-opacity:1;" />
+      <stop
+         style="stop-color:#607d8b;stop-opacity:1;"
+         offset="1"
+         id="stop3777" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="25.995865"
+     inkscape:cx="6.0661811"
+     inkscape:cy="7.8222428"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="660"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     gridtolerance="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       color="#ff0000"
+       opacity="0.1254902" />
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid2989"
+       units="mm"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       gridanglex="45"
+       gridanglez="45"
+       spacingy="1.1289mm"
+       color="#0000ff"
+       opacity="0.0627451"
+       empcolor="#00ff00"
+       empopacity="0.50196078" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#607d8b;fill-opacity:1;stroke:none"
+       id="rect2999"
+       width="8.0000782"
+       height="14"
+       x="4.0000396"
+       y="1" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.22912344;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.29803922;stroke-dasharray:none"
+       d="m 12.499947,5.6665747 2.66e-4,4.6667583"
+       id="path3769"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:50%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"
+       x="7.5985494"
+       y="7.9312077"
+       id="text2995"
+       sodipodi:linespacing="50%"
+       transform="scale(0.98195752,1.018374)"><tspan
+         sodipodi:role="line"
+         id="tspan2997"
+         x="7.5985494"
+         y="7.9312077"
+         style="font-size:8.10000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:50%;fill:#ffffff;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"
+         dy="1">S</tspan><tspan
+         sodipodi:role="line"
+         x="7.5985494"
+         y="11.981208"
+         id="tspan2999"
+         style="font-size:8.10000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:50%;fill:#ffffff;font-family:Grand Hotel;-inkscape-font-specification:Grand Hotel"> S</tspan></text>
+  </g>
+</svg>
