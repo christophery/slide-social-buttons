@@ -1,6 +1,6 @@
 /* Slide Social Buttons are a fun way to display your social media buttons
  * 
- * by Christopher Yee
+ * @author Christopher Yee
  * @author Blue Husky Studios
  * 
  * @version 2.0
@@ -20,7 +20,7 @@
  * 				+ Added the 'ss-' prefix to any generic class name
  * 				! Made .slide-social relative so internal buttons don't align with another positioned ancestor
  * 				! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
- * 		- 1.0 (2013-07-10) - Christopher Lee made first version
+ * 		- 1.0 (2013-07-10) - Christopher Yee made first version
  * 
  * @see https://github.com/christophery/slide-social-buttons
  */
