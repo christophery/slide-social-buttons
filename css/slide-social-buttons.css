@@ -3,7 +3,11 @@
  * @author Christopher Yee
  * @author Blue Husky Studios
  * 
- * @version 2.0
+ * @version 2.0.1
+ * 		- 2.0.1 (2016-06-04)
+ * 				! Hid dividing line when cover has slid away
+ * 				. Made .slide-social background very transparent black instead of light gray
+ * 				. Replaced remaining tab characters with four spaces
  * 		- 2.0 (2015-01-04)
  * 			! Blue Husky Studios refined it to work better as a plugin to an existing site.
  * 				- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
@@ -32,13 +36,14 @@
     width: 9em;
     height: 3em;
     background: #F1F1F1;
-	position: relative; /* So social buttons don't align with positioned ancestor */
+    background: rgba(0,0,0,.05);
+    position: relative; /* So social buttons don't align with positioned ancestor */
 }
 
 .slide-social .ss-button{
     position: absolute;
-	top: 1em;
-	left: 35%;
+    top: 1em;
+    left: 35%;
 }
 
 .ss-icon{
@@ -49,24 +54,24 @@
 }
 
 .ss-icon i{
-	border-right: 1px solid #FFF; /* IE < 9 Fallback Colour */
-	border-right-color: rgba(255,255,255,.3);
+    border-right: 1px solid #FFF; /* IE < 9 Fallback Colour */
+    border-right-color: rgba(255,255,255,.3);
     color: #FFF;
-	display: block;
+    display: block;
     font-size: 1.2em;
-	height: 1em;
+    height: 1em;
 }
 
 .ss-slide{
     position: absolute;
-	top: 0;
+    top: 0;
     right: 0;
     width: 75%;
     height: 100%;
     color: #FFF;
     text-align: center;
     font-weight: 600;
-	line-height: 3em; /* .slide-social{height} */
+    line-height: 3em; /* .slide-social{height} */
 }
 
 /* Brand Colours */
@@ -105,6 +110,10 @@
     transform: translate(101%, 0);
 }
 
+.slide-social:hover .ss-icon i{
+    border-right-color: transparent;
+}
+
 .no-cssanimations .ss-slide{
     display: none; /* hide in IE 8-9 */
 }
@@ -122,9 +131,9 @@
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-	.slide-social:hover .ss-slide{
-		-ms-transition-delay: 0s;
-	}
+    .slide-social:hover .ss-slide{
+        -ms-transition-delay: 0s;
+    }
 
 /* Example Media Queries */
 
