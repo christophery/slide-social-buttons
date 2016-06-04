@@ -1,82 +1,108 @@
-/*! Slide Social Buttons - v1.0 - 2013-7-10
-* Slide Social Buttons are a fun way to display your social media buttons
-* https://github.com/christophery/slide-social-buttons
-* by Christopher Yee */
+/* Slide Social Buttons are a fun way to display your social media buttons
+ * 
+ * @author Christopher Yee
+ * @author Blue Husky Studios
+ * 
+ * @version 2.0.1
+ * 		- 2.0.1 (2016-06-04)
+ * 				! Hid dividing line when cover has slid away
+ * 				. Made .slide-social background very transparent black instead of light gray
+ * 				. Replaced remaining tab characters with four spaces
+ * 		- 2.0 (2015-01-04)
+ * 			! Blue Husky Studios refined it to work better as a plugin to an existing site.
+ * 				- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
+ * 				+ Added .tumblr-bg
+ * 				! Removed need for .ss-slide p element
+ * 				- Removed rule that never showed Twitter backup "Tweet" link
+ * 				! Implemented calc() positioning when possible
+ * 				. Changed px to em where possible
+ * 				. Moved white line from left of .ss-slide p to right of .ss-icon
+ * 				! Implemented absolute positioning on .ss-slide instead of float
+ * 				. Changed .ss-button positioning from pixels to percents
+ * 				. Changed .ss-button positioning from margin-based to top- and left- based
+ * 				. Reformatted documentation to fit Blue Husky standards
+ * 				+ Added the 'ss-' prefix to any generic class name
+ * 				! Made .slide-social relative so internal buttons don't align with another positioned ancestor
+ * 				! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
+ * 		- 1.0 (2013-07-10) - Christopher Yee made first version
+ * 
+ * @see https://github.com/christophery/slide-social-buttons
+ */
 
 .slide-social{
     display: inline-block;
     overflow: hidden;
-    margin: 0 10px 10px 0;
-    width: 150px;
-    height: 48px;
+    margin: 0 1em 1em 0;
+    width: 9em;
+    height: 3em;
     background: #F1F1F1;
+    background: rgba(0,0,0,.05);
+    position: relative; /* So social buttons don't align with positioned ancestor */
 }
 
-.slide-social .button{
+.slide-social .ss-button{
     position: absolute;
-    margin: 15px 0 0 55px;
+    top: 1em;
+    left: 35%;
 }
 
-.slide-social a{
-    display: none; /* hide flash of unstyled tweet button */
-}
-
-.icon{
-    float: left;
-    padding-top: 15px;
+.ss-icon{
+    padding-top: 1em; /* .slide-social{height} - .ss-icon i{height}*/
     width: 25%;
     height: 100%;
     text-align: center;
 }
 
-.icon i{
+.ss-icon i{
+    border-right: 1px solid #FFF; /* IE < 9 Fallback Colour */
+    border-right-color: rgba(255,255,255,.3);
     color: #FFF;
+    display: block;
     font-size: 1.2em;
+    height: 1em;
 }
 
-.slide{
-    position: relative;
-    float: left;
+.ss-slide{
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 75%;
     height: 100%;
-}
-
-.slide p{
-    position: relative;
-    top: 15px;
-    margin: 0;
-    border-left: 1px solid rgb(255,255,255); /* IE < 9 Fallback Colour */
-    border-left: 1px solid rgba(255,255,255,0.3);
     color: #FFF;
     text-align: center;
     font-weight: 600;
+    line-height: 3em; /* .slide-social{height} */
 }
 
 /* Brand Colours */
 
-.facebook{
+.facebook-bg{
     background: #3b5998;
 }
 
-.twitter{
+.twitter-bg{
     background: #00acee;
 }
 
-.google-plus{
+.google-plus-bg{
     background: #db4a39;
 }
 
-.linkedin{
+.linkedin-bg{
     background: #0e76a8;
 }
 
-.pinterest{
+.pinterest-bg{
     background: #c8232c;
+}
+
+.tumblr-bg{
+    background: #35465c;
 }
 
 /* Slide Animation */
 
-.slide-social:hover .slide{
+.slide-social:hover .ss-slide{
     -webkit-transform: translate(101%, 0);
     -moz-transform: translate(101%, 0);
     -ms-transform: translate(101%, 0);
@@ -84,22 +110,30 @@
     transform: translate(101%, 0);
 }
 
-.no-cssanimations .slide{
+.slide-social:hover .ss-icon i{
+    border-right-color: transparent;
+}
+
+.no-cssanimations .ss-slide{
     display: none; /* hide in IE 8-9 */
 }
 
-.touch .slide{
+.touch .ss-slide{
     display: none; /* hide on touch devices */
 }
 
 /* Transition */
 
-.slide{
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
+.ss-slide{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out 2s;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
+    .slide-social:hover .ss-slide{
+        -ms-transition-delay: 0s;
+    }
 
 /* Example Media Queries */
 
@@ -109,8 +143,7 @@
         width: 100%;
     }
 
-    .slide-social .button{
-        position: absolute;
-        margin-left: 50%;
+    .slide-social .ss-button{
+        left: 50%;
     }
 }
