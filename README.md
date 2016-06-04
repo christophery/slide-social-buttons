@@ -52,7 +52,13 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 ##Version History
 
-2.0 (2015-01-04)
+###2.0.1 (2016-06-04)
+
+	! Hid dividing line when cover has slid away
+	. Made .slide-social background very transparent black instead of light gray
+	. Replaced remaining tab characters with four spaces
+
+###2.0 (2015-01-04)
 
 	! Blue Husky Studios refined it to work better as a plugin to an existing site.
 		- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
@@ -73,7 +79,7 @@ You can find the markup for additional social buttons in the demo file (index.ht
 		! Made .slide-social relative so internal buttons don't align with another positioned ancestor
 		! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
 
-1.0
+###1.0
 
 - Inital release
 
