@@ -72,6 +72,7 @@
     text-align: center;
     font-weight: 600;
     line-height: 3em; /* .slide-social{height} */
+    cursor: pointer;
 }
 
 /* Brand Colours */
@@ -102,7 +103,8 @@
 
 /* Slide Animation */
 
-.slide-social:hover .ss-slide{
+.slide-social:hover .ss-slide, 
+.slide-social .ss-slide:hover{
     -webkit-transform: translate(101%, 0);
     -moz-transform: translate(101%, 0);
     -ms-transform: translate(101%, 0);
