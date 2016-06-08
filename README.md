@@ -18,7 +18,6 @@ View Demo: [v 1.0](http://christopheryee.ca/slide-social-buttons/) | [v 2.0](htt
 
 ##Requirements
 
-- [Modernizr](http://www.modernizr.com/)
 - [Font Awesome 4.x](http://fortawesome.github.io/Font-Awesome/)
 
 ##Usage
@@ -51,6 +50,11 @@ You can find the markup for additional social buttons in the demo file (index.ht
 - Any evergreen browser <sub>([What's that?](http://eisenbergeffect.bluespire.com/evergreen-browsers/))</sub>
 
 ##Version History
+
+###2.0.2 (2016-06-08)
+
+- Added fix for touch devices.
+- Removed unused styles.
 
 ###2.0.1 (2016-06-04)
 
@@ -92,7 +96,4 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 - [Supersteil](http://supersteil.com/)
 - [HTML5 Boilerplate](http://html5boilerplate.com/)
-- [Modernizr](http://modernizr.com/)
 - [Christopher Yee](http://christopheryee.ca/)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/christophery/slide-social-buttons/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
