@@ -87,11 +87,6 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 - Inital release
 
-##Known Issues
-
-- IE 10 hover issues with FB Like, Twitter & Google+ buttons. Not usuable.
-- iOS breaks the hover animation, the buttons will degrade gracefully for touch devices.
-
 ##Thanks to
 
 - [Supersteil](http://supersteil.com/)
