@@ -1,10 +1,10 @@
-* { 
+*{ 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;    
     box-sizing: border-box;         
 }
 
-body {
+body{
     font-size: 1em;
     line-height: 1.4;
     text-rendering: optimizeLegibility; /* fix antialiasing issue in Safari */
@@ -33,20 +33,13 @@ h2{
     font-weight: 400;
 }
 
-/* Logo */
-
-#logo {
-  display: block;
-  text-align: center;
-}
-	#logo img {
-	  height: 192px;
-	}
-
 /* Main element */
 
-main {
-    margin: auto;
+main{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
 /* Social Buttons */
