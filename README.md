@@ -4,11 +4,10 @@ Slide Social Buttons are a fun way to display your social media buttons.
 
 The buttons are inspired by the [Supersteil blog](http://supersteil.com/blog) but instead of using jQuery for the animation, they use CSS transforms & transitions.
 
-As of version 2.0, they're only compatible with CSS3-compliant browsers. This mainly means <strong>no IE 8</strong>. If you still need IE8 compatibility, version 1.0 will always be available.
+Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social Buttons in one of your websites.</p>
 
-Feel free to let [the original creator](http://www.twitter.com/cmyee) know if you use Slide Social Buttons in one of your websites.</p>
+[View Demo](https://github.com/christophery/slide-social-buttons)
 
-View Demo: [v 1.0](http://christopheryee.ca/slide-social-buttons/) | [v 2.0](http://shared.bhstudios.org/_plug/slide-social-buttons/)
 
 ##Features
 
@@ -47,7 +46,11 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 ##Browser Compatibility
 
-- Any evergreen browser <sub>([What's that?](http://eisenbergeffect.bluespire.com/evergreen-browsers/))</sub>
+- Chrome
+- Firefox
+- Safari (9+)
+- Chrome (Android 6+)
+- Safari (iOS 9+)
 
 ##Version History
 
@@ -91,4 +94,4 @@ You can find the markup for additional social buttons in the demo file (index.ht
 
 - [Supersteil](http://supersteil.com/)
 - [HTML5 Boilerplate](http://html5boilerplate.com/)
-- [Christopher Yee](http://christopheryee.ca/)
+- [Font Awesome](http://fontawesome.io/icons/)
