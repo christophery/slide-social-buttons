@@ -1,25 +1,25 @@
-#Slide Social Buttons
+# Slide Social Buttons
 
 Slide Social Buttons are a fun way to display your social media buttons.
 
 The buttons are inspired by the [Supersteil blog](http://supersteil.com/blog) but instead of using jQuery for the animation, they use CSS transforms & transitions.
 
-Feel free to [let me know](http://www.twitter.com/cmyee) if you use Slide Social Buttons in one of your websites.</p>
+Feel free to [let me know](https://www.twitter.com/cmyee) if you use Slide Social Buttons in one of your websites.</p>
 
-[View Demo](https://christopheryee.ca/slide-social-buttons/)
+[View Demo](https://chrisyee.ca/slide-social-buttons)
 
 
-##Features
+## Features
 
 - Uses CSS transforms & transitions.
 - Uses Font Icons, perfect for retina displays.
 - It's responsive!
 
-##Requirements
+## Requirements
 
 - [Font Awesome 4.x](http://fortawesome.github.io/Font-Awesome/)
 
-##Usage
+## Usage
 
 Include Font Awesome and the Slide Social CSS in your header.
 
@@ -44,7 +44,7 @@ Pick and choose which social buttons you wish to use, be sure to add the appropr
 
 You can find the markup for additional social buttons in the demo file (index.html).
 
-##Browser Compatibility
+## Browser Compatibility
 
 - Chrome
 - Firefox
@@ -52,20 +52,20 @@ You can find the markup for additional social buttons in the demo file (index.ht
 - Chrome (Android 6+)
 - Safari (iOS 9+)
 
-##Version History
+## Version History
 
-###2.0.2 (2016-06-08)
+### 2.0.2 (2016-06-08)
 
 - Added fix for touch devices.
 - Removed unused styles.
 
-###2.0.1 (2016-06-04)
+### 2.0.1 (2016-06-04)
 
 	! Hid dividing line when cover has slid away
 	. Made .slide-social background very transparent black instead of light gray
 	. Replaced remaining tab characters with four spaces
 
-###2.0 (2015-01-04)
+### 2.0 (2015-01-04)
 
 	! Blue Husky Studios refined it to work better as a plugin to an existing site.
 		- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
@@ -86,11 +86,11 @@ You can find the markup for additional social buttons in the demo file (index.ht
 		! Made .slide-social relative so internal buttons don't align with another positioned ancestor
 		! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
 
-###1.0
+### 1.0
 
 - Inital release
 
-##Thanks to
+## Thanks to
 
 - [Supersteil](http://supersteil.com/)
 - [HTML5 Boilerplate](http://html5boilerplate.com/)
