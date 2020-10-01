@@ -44,52 +44,6 @@ Pick and choose which social buttons you wish to use, be sure to add the appropr
 
 You can find the markup for additional social buttons in the demo file (index.html).
 
-## Browser Compatibility
-
-- Chrome
-- Firefox
-- Safari (9+)
-- Chrome (Android 6+)
-- Safari (iOS 9+)
-
-## Version History
-
-### 2.0.2 (2016-06-08)
-
-- Added fix for touch devices.
-- Removed unused styles.
-
-### 2.0.1 (2016-06-04)
-
-	! Hid dividing line when cover has slid away
-	. Made .slide-social background very transparent black instead of light gray
-	. Replaced remaining tab characters with four spaces
-
-### 2.0 (2015-01-04)
-
-	! Blue Husky Studios refined it to work better as a plugin to an existing site.
-		- REMOVED IE8 COMPATIBILITY - now designed for evergreen browsers.
-		+ Created branding (icon and logo), added in ./branding/
-		! Updated Font Awesome requirement to 4.x
-		! Removed requirement for Modernizr.js
-		+ Added .tumblr-bg
-		! Removed need for .ss-slide p element
-		- Removed rule that never showed Twitter backup "Tweet" link
-		! Implemented calc() positioning when possible
-		. Changed px to em where possible
-		. Moved white line from left of .ss-slide p to right of .ss-icon
-		! Implemented absolute positioning on .ss-slide instead of float
-		. Changed .ss-button positioning from pixels to percents
-		. Changed .ss-button positioning from margin-based to top- and left- based
-		. Reformatted documentation to fit Blue Husky standards
-		+ Added the 'ss-' prefix to any generic class name
-		! Made .slide-social relative so internal buttons don't align with another positioned ancestor
-		! Gave .ss-slide a 2-second return delay so button is still uncovered when clicking in IE.
-
-### 1.0
-
-- Inital release
-
 ## Thanks to
 
 - [Supersteil](http://supersteil.com/)
