@@ -28,7 +28,7 @@ Include Font Awesome and the Slide Social CSS in your header.
 <link rel="stylesheet" href="path/to/your/css/slide-social-buttons.css">
 ```
 
-Pick and choose which social buttons you wish to use, be sure to add the appropriate [like](https://developers.facebook.com/docs/reference/plugins/like/)/[tweet](https://twitter.com/about/resources/buttons)/[+1](https://developers.google.com/+/web/+1button/?hl=en) markup and JS as required.
+Pick and choose which social buttons you wish to use, be sure to add the appropriate [like](https://developers.facebook.com/docs/reference/plugins/like/)/[tweet](https://twitter.com/about/resources/buttons) markup and JS as required.
 
 ```html
 <div class="slide-social">
